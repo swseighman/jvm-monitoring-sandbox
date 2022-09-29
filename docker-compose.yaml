@@ -11,6 +11,15 @@ services:
       - 8080:8080
     entrypoint: ["java","-XX:StartFlightRecording:filename=/recordings/recording.jfr,dumponexit=true","-jar","app.jar"]
 
+  # native:
+  #   build: ./app
+  #   container_name: native-app
+  #   volumes: 
+  #     - ./recordings:/recordings
+  #   ports:
+  #     - 8080:8080
+  #   entrypoint: ["/app"]
+
   prometheus:
     image: prom/prometheus:v2.30.0
     container_name: prometheus

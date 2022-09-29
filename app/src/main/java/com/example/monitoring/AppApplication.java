@@ -1,4 +1,4 @@
-package io.wkrzywiec.blog.jvm.performance.app;
+package com.example.monitoring;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

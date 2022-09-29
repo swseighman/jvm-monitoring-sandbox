@@ -1,4 +1,4 @@
-package io.wkrzywiec.blog.jvm.performance.app;
+package com.example.monitoring;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
